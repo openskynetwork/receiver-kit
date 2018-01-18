@@ -5,7 +5,9 @@
   * Assembling the receiver
   * Bringing your Receiver Online
     * Network Setup
+    * Determine the IP Address of Your Receiver
     * Accessing the web interface of the receiver
+    * Claiming your receiver
 
 -----
 
@@ -73,11 +75,11 @@ The RaspberryPi should be powering up, which is indicated by an LED behind the r
 
 ## Bringing your Receiver Online
 
-##### Network Setup
+#### Network Setup
 
 The receiver is configured to attempt a connection via DHCP, which is the appropriate configuration in most cases. Simply connect the receiver to your local network via a LAN cable and moments later it should automatically have established a connection. If your LAN has access to the Internet the receiver will instantly start streaming data to the OpenSky Network. If your network operates without a DHCP server or you wish to use some other configuration, please contact us via [contact@opensky-network.org](mailto:contact@opensky-network.org).
 
-##### Determine the IP Address of Your Receiver
+#### Determine the IP Address of Your Receiver
 
 To access the web interface of the receiver you need to find out its IP address. In case it was assigned by a DHCP server your best bet is to search the network for a host called `raspberrypi` because that is the default hostname of your receiver when you set it up. The command `nslookup` is preinstalled on Windows, Ubuntu and Mac OS X. Unless you have not set up some specific outside-LAN DNS server for your computer, this command should do the trick. Follow these steps to get the IP address:
 
@@ -98,7 +100,7 @@ To access the web interface of the receiver you need to find out its IP address.
     
  2. When the command line shell has opened up, type `nslookup raspberrypi` and submit the command by pressing the return key
  
-##### Mac OS X
+###### Mac OS X
 
  1. Open the terminal. Press CMD-Space, type `Terminal` and select the Terminal app.
  
@@ -112,7 +114,7 @@ The `nslookup` command should print some information to the console, which shoul
 
 In this case the IP address of your receiver would be `192.168.178.137`.
 
-##### Accessing the web interface of the receiver
+#### Accessing the web interface of the receiver
 
 Open up your favorite internet browser and type the ip address to the address line. The webinterface should open up:
 
@@ -122,6 +124,8 @@ In the "Links"-menu you will find the option "Your OpenSky Receiver Profile". Cl
 
 
 ![alt text](images/oskyprofile.png "OpenSky Network Receiver Profile") 
+
+#### Claiming your receiver
 
 The big number on the top left is the serial number of your receiver. In the image above the serial number is `-1408237066`. Don't be surprised to find the user `matze` assigned to your receiver because all new receivers are. Please contact us at [contact@opensky-network.org](mailto:contact@opensky-network.org) to claim your receiver so we can assign it to your OpenSky Network account. For your convenience we have prepared this email text for you. Just fill out the missing information:
 
