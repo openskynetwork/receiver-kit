@@ -11,7 +11,7 @@
 
 ## Introduction
 
-This guide explains how to assemble and setup your OpenSky Network Kit. After following this guide your kit will be connected to the OpenSky Network and you will be able to view the data the receiver is collecting by logging into your OpenSky profile on [https://opensky-network.org]().
+This guide explains how to assemble and setup your OpenSky Network Kit. After following this guide your kit will be connected to the OpenSky Network and you will be able to view the data the receiver is collecting by logging into your OpenSky profile on [https://opensky-network.org](https://opensky-network.org).
 
 ## Overview
 
@@ -43,31 +43,31 @@ The OpenSky kit consists of the following parts:
 
 Remove the protection cardboard from the bottom of the coolers (C) and (D) and place them onto the chips of the RaspberryPi (A):
 
-![alt text](images/1.png "Overview") 
+![alt text](images/1.png "Step 1") 
 
 Take the RPi (A) and place it onto the bottom part of the case (E). You will notice that the four screwholes of the RPi will be aligned with the screwholes in (E). The best way to insert the RPi is to push the 3.5 mm audio jack into the designated hole in the case (see the red circle below) and then push down the RPi, until it sits perfectly.
 
-![alt text](images/2.png "Overview") 
+![alt text](images/2.png "Step 2") 
 
 Gently push the rear panel (G) of the case into position and make sure the SD card slot is on the bottom (see the red circle below).
 
-![alt text](images/3.png "Overview") 
+![alt text](images/3.png "Step 3") 
 
 Place the top part of the case (F) onto the RPi and insert the screws (H) through the holes on the bottom.
 
-![alt text](images/4.png "Overview") 
+![alt text](images/4.png "Step 4") 
 
 Insert the SD card (3):
 
-![alt text](images/5.png "Overview") 
+![alt text](images/5.png "Step 5") 
 
 Remove the plastic caps from the RTL-SDR dongle (4) and plug it into one of the USB ports on the RaspberryPi:
 
-![alt text](images/6.png "Overview") 
+![alt text](images/6.png "Step 6") 
 
 Connect the coax cable (5), the power supply (B) and your local network via a LAN cable. The LAN cable is not included in the OpenSky kit:
 
-![alt text](images/7.png "Overview") 
+![alt text](images/7.png "Step 7") 
 
 The RaspberryPi should be powering up, which is indicated by an LED behind the rear panel of the case or the LAN traffic indicators on the LAN port.
 
@@ -75,7 +75,7 @@ The RaspberryPi should be powering up, which is indicated by an LED behind the r
 
 ##### Network Setup
 
-The receiver is configured to attempt a connection via DHCP, which is the appropriate configuration in most cases. Simply connect the receiver to your local network via a LAN cable and moments later it should automatically have established a connection. If your LAN has access to the Internet the receiver will instantly start streaming data to the OpenSky Network. If your network operates without a DHCP server or you wish to use some other configuration, please contact us via [contact@opensky-network.org]().
+The receiver is configured to attempt a connection via DHCP, which is the appropriate configuration in most cases. Simply connect the receiver to your local network via a LAN cable and moments later it should automatically have established a connection. If your LAN has access to the Internet the receiver will instantly start streaming data to the OpenSky Network. If your network operates without a DHCP server or you wish to use some other configuration, please contact us via [contact@opensky-network.org](mailto:contact@opensky-network.org).
 
 ##### Determine the IP Address of Your Receiver
 
@@ -108,7 +108,7 @@ To access the web interface of the receiver you need to find out its IP address.
   
 The `nslookup` command should print some information to the console, which should look somewhat like this:
 
-![alt text](images/nslookup.png "Overview") 
+![alt text](images/nslookup.png "Nameserver Lookup") 
 
 In this case the IP address of your receiver would be `192.168.178.137`.
 
@@ -116,14 +116,14 @@ In this case the IP address of your receiver would be `192.168.178.137`.
 
 Open up your favorite internet browser and type the ip address to the address line. The webinterface should open up:
 
-![alt text](images/webinterface.png "Overview") 
+![alt text](images/webinterface.png "Receiver Webinterface") 
 
 In the "Links"-menu you will find the option "Your OpenSky Receiver Profile". Click it and your public OpenSky Network profile will open up: 
 
 
-![alt text](images/oskyprofile.png "Overview") 
+![alt text](images/oskyprofile.png "OpenSky Network Receiver Profile") 
 
-The big number on the top left is the serial number of your receiver. In the image above the serial number is `-1408237066`. Don't be surprised to find the user `matze` assigned to your receiver because all new receivers are. Please contact us at [contact@opensky-network.org]() to claim your receiver so we can assign it to your OpenSky Network account. For your convenience we have prepared this email text for you. Just fill out the missing information:
+The big number on the top left is the serial number of your receiver. In the image above the serial number is `-1408237066`. Don't be surprised to find the user `matze` assigned to your receiver because all new receivers are. Please contact us at [contact@opensky-network.org](mailto:contact@opensky-network.org) to claim your receiver so we can assign it to your OpenSky Network account. For your convenience we have prepared this email text for you. Just fill out the missing information:
 
 ```
 Dear OpenSky team,
