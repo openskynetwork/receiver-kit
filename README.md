@@ -157,3 +157,58 @@ You can use [Google Maps](https://maps.google.com) to determine the latitude and
 
 ## Updating Your Receiver
 
+Updating your receiver basically means overwriting it with a new version of the image you can download [here](https://opensky-network.org/files/firmware/osky-donated.img.xz). This section describes the update process.
+
+###### Linux
+
+Insert the SD card. It should now show up in the list of block devices, so type the following command:
+```bash
+lsblk -o NAME,SIZE,TYPE,MOUNTPOINT,LABEL
+```
+
+
+If your SD card is there the output should look something like this:
+
+```
+NAME    SIZE TYPE MOUNTPOINT LABEL
+sdb    14,9G disk            
+├─sdb2 14,8G part            
+└─sdb1 41,8M part            boot
+sda      80G disk            
+└─sda1   80G part /
+```
+
+
+So the SD card is available at `/dev/sdb`. Make sure the card and none of its partitions are mounted:
+```bash
+umount /dev/sdb*
+```
+
+
+Switch to your download directory or where ever you wish to download the image file to:
+```bash
+cd ~/Downloads/
+```
+
+
+Download the image file:
+```bash
+wget https://opensky-network.org/files/firmware/osky-donated.img.xz
+```
+
+Switch to root shell because you could run into problems trying to run `sudo xzcat`:
+```bash
+sudo -s
+```
+
+Now in the root-shell, extract the firmware to the SD card:
+```bash
+xzcat osky-donated.img.xz > /dev/sdb
+```
+
+Flush all pending I/O operations:
+```bash
+sync
+```
+
+Insert the SD card in the receiver and try to power it up.
