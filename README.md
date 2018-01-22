@@ -1,4 +1,4 @@
-> ####Notice
+> #### Notice
 > This guide always refers to the latest version of the OpenSky Network Kit image. We strongly recommend always having the latest image installed. You can download it [here](https://opensky-network.org/files/firmware/osky-donated.img.xz). Please refer to  the "Updating Your Receiver" section of this guide for details on the update process.
 
 ## Contents
@@ -159,7 +159,7 @@ You can use [Google Maps](https://maps.google.com) to determine the latitude and
 
 Updating your receiver basically means overwriting it with a new version of the image you can download [here](https://opensky-network.org/files/firmware/osky-donated.img.xz). This section describes the update process.
 
-###### Linux
+#### Linux
 
 Insert the SD card. It should now show up in the list of block devices, so type the following command:
 ```bash
@@ -211,4 +211,35 @@ Flush all pending I/O operations:
 sync
 ```
 
-Insert the SD card in the receiver and try to power it up.
+Insert the SD card into the receiver and try to power it up.
+
+
+#### Windows
+
+In order to install the image under Windows we need to install the following software first:
+
+  - [7Zip](http://www.7-zip.de/)
+  - [Win32 Disk Imager](http://sourceforge.net/projects/win32diskimager)
+  
+  1. Download and install both programs.
+
+  2. You also need the most recent image file. Download it from [here](https://opensky-network.org/files/firmware/osky-donated.img.xz) using your favorite browser. 
+
+  3. First we will prepare the SD card by removing all partitions. Open the Windows Disk Management: Press Windowskey-R, then type `diskmgmt.msc` and finally press the return key. The program coming up should look like this:
+  ![alt text](images/diskmgmt.msc.png "Windows Disk Management") 
+  The SC card is labeled `Removable` on the left and should have two partitions, the first one called `boot` (marked with a red square in the image above). Make sure you determine the correct device because you don't want to format other removable USB devices you probably have connected to your PC at that moment. Right-click both partitions one at a time and click `Delete Volume` in the context menu:
+  ![alt text](images/diskmgmt.msc2.png "Windows Disk Management")
+  After removing both partitions the whole SD card should be "Unallocated".
+  
+  4. Next we will extract the image file using 7Zip. Navigate to the directory you downloaded the file to (or click `Show in folder` in the download section of your browser). Right-click the file and select `Extract to "osky-donated.img\"` in the 7 Zip sub-menu:
+  ![alt text](images/7Zip.png "Windows Disk Management")
+  This will create a new folder and write the image file to that folder. You probably also noticed the red arrow on the left in the image above. There you see the current letter windows assigned to the empty SD card, `(F:)` in this case. We will need this letter in the next step.
+
+  4. Now open the Win32 Disk Imager you just installed. Please note that the program refreshes available devices when it starts up and you should therefore only start it now. If you already had it running while you were formatting the SD card you should close the Disk Imager and restart it. Once you have selected the image file we just created with 7 Zip in the last step, the window should look like this:
+  ![alt text](images/diskimager.png "Windows Disk Management")
+  Make sure the correct device is selected in the dropdown menu on the right, `(F:)` in this case. The `Write` button on the bottom should become activated. Click it and confirm to start the writing process. After a few minutes it should have finished.
+  
+  5. Safely remove the SD card to flush all pending I/O operations by selecting the device in the eject menu in the Windows Infobar on the bottom right of your screen. The eject menu is available by right-clicking the small USB stick icon:
+  ![alt text](images/eject.png "Windows Disk Management")
+
+  6. Insert the SD card into the receiver and try to power it up.
