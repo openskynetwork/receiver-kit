@@ -1,13 +1,18 @@
+> ####Notice
+> This guide always refers to the latest version of the OpenSky Network Kit image. We strongly recommend always having the latest image installed. You can download it [here](https://opensky-network.org/files/firmware/osky-donated.img.xz). Please refer to  the "Updating Your Receiver" section of this guide for details on the update process.
+
 ## Contents
 
   * Introduction
   * Overview
-  * Assembling the receiver
-  * Bringing your Receiver Online
+  * Assembling the Receiver
+  * First Boot
+  * Connecting to Your Receiver
     * Network Setup
     * Determine the IP Address of Your Receiver
     * Accessing the web interface of the receiver
     * Claiming your receiver
+  * Updating Your Receiver
 
 -----
 
@@ -41,7 +46,7 @@ The OpenSky kit consists of the following parts:
 
 ##### (7) 1x 15m low loss coax cable
 
-## Assembling the receiver
+## Assembling the Receiver
 
 Remove the protection cardboard from the bottom of the coolers (C) and (D) and place them onto the chips of the RaspberryPi (A):
 
@@ -73,7 +78,11 @@ Connect the coax cable (5), the power supply (B) and your local network via a LA
 
 The RaspberryPi should be powering up, which is indicated by an LED behind the rear panel of the case or the LAN traffic indicators on the LAN port.
 
-## Bringing your Receiver Online
+## First Boot
+
+The first boot of your receiver always takes a little longer than any normal boot afterwards will, because the receiver performs the final setup steps. As soon as it has successfully obtained an IP address via DHCP, the receiver contacts the servers of the OpenSky Network for the first time and gets assigned a unique serial number. After a few minutes at most the device starts collecting data and should be accessible from the LAN.
+
+## Connecting to Your Receiver
 
 #### Network Setup
 
@@ -136,6 +145,15 @@ my new receiver just went online and I would like to claim it:
 
  serial: <YOUR SERIAL NUMBER>
  username: <YOUR OPENSKY NETWORK USERNAME>
+ antenna latitude: <LAT>
+ antenna longitude: <LNG>
  
 Cheers!
 ```
+
+You can use [Google Maps](https://maps.google.com) to determine the latitude and longitude of the antenna. Simply click on the location of your antenna on the map and read the lat/lng information from the small popup in the bottom middle):
+
+![alt text](images/latlng.png "Google Maps Lat, Lng") 
+
+## Updating Your Receiver
+
