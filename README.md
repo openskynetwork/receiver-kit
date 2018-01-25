@@ -151,9 +151,11 @@ my new receiver just went online and I would like to claim it:
 Cheers!
 ```
 
-You can use [Google Maps](https://maps.google.com) to determine the latitude and longitude of the antenna. Simply click on the location of your antenna on the map and read the lat/lng information from the small popup in the bottom middle):
+You can use [Google Maps](https://maps.google.com) to determine the latitude and longitude of the antenna. Simply right-click on the location of where you mounted your antenna (not the position of the receiver-case), select "What's here?" in the context menu and read the lat/lng information from the small popup in the bottom middle:
 
 ![alt text](images/latlng.png "Google Maps Lat, Lng") 
+
+Latitude and longitude values with at least 4 fractional digits are preferable. So Google Maps definately provides sufficient accuracy if the correct location is selected.
 
 ## Updating Your Receiver
 
