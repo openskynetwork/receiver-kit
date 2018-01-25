@@ -155,7 +155,7 @@ You can use [Google Maps](https://maps.google.com) to determine the latitude and
 
 ![alt text](images/latlng.png "Google Maps Lat, Lng") 
 
-Latitude and longitude values with at least 4 fractional digits are preferable. So Google Maps definately provides sufficient accuracy if the correct location is selected.
+Latitude and longitude values with at least 4 fractional digits are preferable. So Google Maps definitely provides sufficient accuracy if the correct location is selected.
 
 ## Updating Your Receiver
 
