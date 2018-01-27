@@ -245,3 +245,18 @@ In order to install the image under Windows we need to install the following sof
   ![alt text](images/eject.png "Windows Disk Management")
 
   6. Insert the SD card into the receiver and try to power it up.
+  
+
+## Antenna Positioning
+
+A good position to mount your antenna is essential for good reception. Radio signals are blocked by surrounding buildings and terrain. In order to get good results your antenna should be mounted as high as possible, with a clear line of sight in every direction.
+
+  ![alt text](images/Antenna_positioning_1.png "Bad Antenna Positioning")
+  
+  ![alt text](images/Antenna_positioning_2.png "Bad Antenna Positioning") 
+  
+  ![alt text](images/Antenna_positioning_3.png "Good Antenna Positioning") 
+  
+  ![alt text](images/Antenna_positioning_4.png "Bad Antenna Positioning") 
+  
+  ![alt text](images/Antenna_positioning_5.png "Good Antenna Positioning")
