@@ -3,17 +3,17 @@
 
 ## Contents
 
-  * Introduction
-  * Overview
-  * Assembling the Receiver
-  * First Boot
-  * Connecting to Your Receiver
-    * Network Setup
-    * Determine the IP Address of Your Receiver
-    * Accessing the web interface of the receiver
-    * Claiming your receiver
-  * Updating Your Receiver
-  * Antenna Positioning
+  * [Introduction](#introduction)
+  * [Overview](#overview)
+  * [Assembling the Receiver](#assembling-the-receiver)
+  * [First Boot](#first-boot)
+  * [Connecting to Your Receiver](#connecting-to-your-receiver)
+    * [Network Setup](#network-setup)
+    * [Determine the IP Address of Your Receiver](#determine-the-ip-address-of-your-receiver)
+    * [Accessing the web interface of the receiver](#accessing-the-web-interface-of-the-receiver)
+    * [Claiming your receiver](#claiming-your-receiver)
+  * [Updating Your Receiver](#updating-your-receiver)
+  * [Antenna Positioning](#antenna-positioning)
 
 -----
 
