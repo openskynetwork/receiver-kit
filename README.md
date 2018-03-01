@@ -1,5 +1,5 @@
 > #### Notice
-> This guide always refers to the latest version of the OpenSky Network Kit image. We strongly recommend always having the latest image installed. You can download it [here](https://opensky-network.org/files/downloads/osky-kit_240218.img.xz). Please refer to  the "Updating Your Receiver" section of this guide for details on the update process.
+> This guide always refers to the latest version of the OpenSky Network Kit image. We strongly recommend always having the latest image installed. You can download it [here](https://opensky-network.org/files/downloads/osky-kit_240218.img.xz): [https://opensky-network.org/files/downloads/osky-kit_240218.img.xz](https://opensky-network.org/files/downloads/osky-kit_240218.img.xz). Please refer to  the "Updating Your Receiver" section of this guide for details on the update process.
 
 ## Contents
 
@@ -195,12 +195,12 @@ After following the steps in section "[Mounting the SD Card With Your Computer](
  #Username = [your username goes here]
  ```
  
-You can use [Google Maps](https://maps.google.com) to determine the latitude and longitude of the antenna. Simply right-click on the location of where your antenna will be mounted (not the position of the receiver-case), select "What's here?" in the context menu and read the lat/lng information from the small popup in the bottom middle:
+You can use [Google Maps](https://maps.google.com)([https://maps.google.com](https://maps.google.com) to determine the latitude and longitude of the antenna. Simply right-click on the location of where your antenna will be mounted (not the position of the receiver-case), select "What's here?" in the context menu and read the lat/lng information from the small popup in the bottom middle:
 
 ![alt text](images/latlng.png "Google Maps Lat, Lng") 
 
 Latitude and longitude values with at least 4 fractional digits are preferable. So Google Maps definitely provides sufficient accuracy if the correct location is selected. The online tool [https://www.daftlogic.com/sandbox-google-maps-find-altitude.htm](https://www.daftlogic.com/sandbox-google-maps-find-altitude.htm) uses the Google Maps API to determine the altitude. Use this to determine the altitude of your antenna in meters. Don't forget to take the height of the building into account, if you mount your antenna on a roof.
-Instead of using different online tools you can also download [Google Earth](https://www.google.de/intl/de/earth/) ([Google Earth](https://www.google.de/intl/de/earth/)) and use the 3D mode to determine the exact coordinates of your antenna, already including the height of the building.
+Instead of using different online tools you can also download [Google Earth](https://www.google.de/intl/de/earth/) ([https://www.google.de/intl/de/earth/](https://www.google.de/intl/de/earth/)) and use the 3D mode to determine the exact coordinates of your antenna, already including the height of the building.
 
 #### Config - OpenSky Network User Name
 
@@ -431,7 +431,7 @@ You can click your way throught the graphical interface using the arrow keys of 
 
 ## Updating Your Receiver
 
-Updating your receiver basically means overwriting the SD card with a new version of the image you can download [here](https://opensky-network.org/files/downloads/osky-kit_240218.img.xz) ([https://opensky-network.org/files/downloads/osky-kit_240218.img.xz](https://opensky-network.org/files/downloads/osky-kit_240218.img.xz)). This section describes the update process.
+Updating your receiver basically means overwriting the SD card with a new version of the image you can download [here](https://opensky-network.org/files/downloads/osky-kit_240218.img.xz): [https://opensky-network.org/files/downloads/osky-kit_240218.img.xz](https://opensky-network.org/files/downloads/osky-kit_240218.img.xz). This section describes the update process.
 
 ### Flashing the Firmware Image
 
@@ -498,7 +498,7 @@ In order to install the image under Windows we need to install the following sof
   
   1. Download and install both programs.
 
-  2. You also need the most recent image file. Download it from [here](https://opensky-network.org/files/downloads/osky-kit_240218.img.xz) ([https://opensky-network.org/files/downloads/osky-kit_240218.img.xz](https://opensky-network.org/files/downloads/osky-kit_240218.img.xz)) using your favorite browser. 
+  2. You also need the most recent image file. Download it from [here](https://opensky-network.org/files/downloads/osky-kit_240218.img.xz): [https://opensky-network.org/files/downloads/osky-kit_240218.img.xz](https://opensky-network.org/files/downloads/osky-kit_240218.img.xz) using your favorite browser. 
   
   3. Insert the SD card. One partition can't be read with Windows, which is why it will probably ask you to format it. Click "Cancel":  
    ![alt text](images/SDprompt.png "Windows formatting prompt")  
