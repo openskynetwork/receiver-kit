@@ -9,8 +9,8 @@
     * [Assembling the Receiver](#assembling-the-receiver)
     * [Preparing the SD Card](#preparing-the-sd-card)
         * [Mounting the SD Card With Your Computer](#mounting-the-sd-card-with-your-computer)
-        * [Config: Antenna Position](#config:-antenna-position)
-        * [Config: OpenSky Network User Name](#config:-opensky-network-user-name)
+        * [Config - Antenna Position](#config---antenna-position)
+        * [Config - OpenSky Network User Name](#config---opensky-network-user-name)
         * [Enabling SSH](#enabling-ssh)
     * [First Boot](#first-boot)
     * [Connecting to Your Receiver](#connecting-to-your-receiver)
@@ -167,7 +167,7 @@ You are now ready do edit the files as described in the following sections.
    ![alt text](images/bootPartition.png "Windows Disk Management")  
   You are now ready to edit the files as described in the following sections.
 
-#### Config: Antenna Position
+#### Config - Antenna Position
 
 After following the steps in section "[Mounting the SD Card With Your Computer](#mounting-the-sd-card-with-your-computer)" you should be in the root directory of the `boot` partition. Open the file `opensky/config.txt` with your favorite text editor. The file should look like this:
 
@@ -202,7 +202,7 @@ You can use [Google Maps](https://maps.google.com) to determine the latitude and
 Latitude and longitude values with at least 4 fractional digits are preferable. So Google Maps definitely provides sufficient accuracy if the correct location is selected. The online tool [https://www.daftlogic.com/sandbox-google-maps-find-altitude.htm](https://www.daftlogic.com/sandbox-google-maps-find-altitude.htm) uses the Google Maps API to determine the altitude. Use this to determine the altitude of your antenna in meters. Don't forget to take the height of the building into account, if you mount your antenna on a roof.
 Instead of using different online tools you can also download [Google Earth](https://www.google.de/intl/de/earth/) ([Google Earth](https://www.google.de/intl/de/earth/)) and use the 3D mode to determine the exact coordinates of your antenna, already including the height of the building.
 
-#### Config: OpenSky Network User Name
+#### Config - OpenSky Network User Name
 
 Also, in order to make sure that your receiver will get assigned to your user account when it connects to the OpenSky Network for the first time, you have to set your user name at the bottom of the same file we added theh receiver location in the previous section. Don't forget to remove the `#` at the beginning of the line. After editing the lines they should look like this (replace `yourusername` with your own username):
 
