@@ -1,5 +1,5 @@
 > #### Notice
-> This guide always refers to the latest version of the OpenSky Network Kit image. We strongly recommend always having the latest image installed. You can download it [here](https://opensky-network.org/files/downloads/osky-kit_240218.img.xz): [https://opensky-network.org/files/downloads/osky-kit_240218.img.xz](https://opensky-network.org/files/downloads/osky-kit_240218.img.xz). Please refer to  the "Updating Your Receiver" section of this guide for details on the update process.
+> This guide always refers to the latest version of the OpenSky Network Kit image. We strongly recommend always having the latest image installed. You can download it [here](https://opensky-network.org/files/downloads/osky-kit_230321.img.xz): [https://opensky-network.org/files/downloads/osky-kit_230321.img.xz](https://opensky-network.org/files/downloads/osky-kit_240218.img.xz). Please refer to  the "Updating Your Receiver" section of this guide for details on the update process.
 
 ## Contents
 
