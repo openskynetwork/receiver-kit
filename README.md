@@ -324,7 +324,7 @@ In this case the IP address of your receiver would be `192.168.178.137`.
 
 #### Accessing the Web Interface of the Receiver
 
-Open up your favorite internet browser and type the ip address to the address line. The webinterface should open up:
+Open up your favorite internet browser and type the IP address into the address bar followed by `/tar1090`. For example `http://192.168.178.137/tar1090`. The webinterface should open up:
 
 ![alt text](images/webinterface.png "Receiver Webinterface") 
 
