@@ -28,7 +28,7 @@
 
 # Introduction
 
-This guide explains how to assemble and setup your OpenSky Network Kit. After following this guide your kit will be connected to the OpenSky Network and you will be able to view the data the receiver is collecting by logging into your OpenSky profile on [https://opensky-network.org](https://opensky-network.org). The kit can be purchased through our partner [https://shop.jetvision.de](https://shop.jetvision.de).
+This guide explains how to assemble and setup your OpenSky Network Kit. After following this guide your kit will be connected to the OpenSky Network and you will be able to view the data the receiver is collecting by logging into your OpenSky profile on [https://opensky-network.org](https://opensky-network.org). While the kit isn't available for purchase currently, similar Pi and RTL-SDR based setups should follow the same basic concepts. Note that the preconfigured image does not currently work with the Raspberry Pi 5 - we recommend installing our feeder directly, according to https://opensky-network.org/feed/raspberry
 
 # Overview
 
