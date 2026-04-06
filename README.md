@@ -1,4 +1,6 @@
 > #### Notice
+> This guide applies to the largely deprecated OpenSky feeder kit, i.e. an SD card created specfically for feeding OpenSky with a Raspberry Pi 4 and below. In general, we now recommend the use of community-served multi-feder images such as https://adsb.im and https://sdr-enthusiasts.gitbook.io/ads-b. See https://opensky-network.org/feed for the always most up-to-date information.
+> 
 > This guide always refers to the latest version of the OpenSky Network Kit image. We strongly recommend always having the latest image installed. You can download it [here](https://opensky-network.org/files/downloads/osky-kit_230321.img.xz): [https://opensky-network.org/files/downloads/osky-kit_230321.img.xz](https://opensky-network.org/files/downloads/osky-kit_230321.img.xz). Please refer to  the "Updating Your Receiver" section of this guide for details on the update process.
 
 ## Contents
